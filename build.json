@@ -1,0 +1,13 @@
+{
+  "targets": [
+    "web",
+    "kraken"
+  ],
+  "web": {
+    "mpa": true
+  },
+  "kraken": {
+    "mpa": true
+  },
+  "plugins": []
+}

@@ -1,0 +1,36 @@
+.rowContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.columnContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 5rpx;
+    border-color: gray;
+    border-width: 1rpx;
+    border-style: solid;
+}
+
+.textCenter {
+    flex: 1;
+    border-color: black;
+    border-width: 1rpx;
+    border-style: solid;
+    font-size: 5px;
+}
+
+.textLeft {
+    border-color: black;
+    border-width: 1rpx;
+    border-style: solid;
+    font-size: 5px;
+}
+
+.textRight {
+    border-color: black;
+    border-width: 1rpx;
+    border-style: solid;
+    font-size: 5px;
+}

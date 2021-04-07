@@ -1,0 +1,27 @@
+.rootContainer {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+.scrollView {
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  display: flex;
+  background-color: gray;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 30px;
+}
