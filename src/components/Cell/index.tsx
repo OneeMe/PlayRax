@@ -28,7 +28,7 @@ export default (props: CellProps) => {
                             <View className={styles.columnContainer}>
                               <View className={styles.columnContainer}>
                                 <View className={styles.columnContainer}>
-                                  <View className={styles.columnContainer}>
+                                  {/* <View className={styles.columnContainer}>
                                     <View className={styles.columnContainer}>
                                       <View className={styles.columnContainer}>
                                         <View className={styles.columnContainer}>
@@ -132,7 +132,7 @@ export default (props: CellProps) => {
                                       <View className={styles.textCenter}>{center}</View>
                                       <View className={styles.textRight}>{right}</View>
                                     </View>
-                                  </View>
+                                  </View> */}
                                   <View className={styles.rowContainer}>
                                     <View className={styles.textLeft}>{left}</View>
                                     <View className={styles.textCenter}>{center}</View>

@@ -14,6 +14,14 @@ export default function Home() {
     <View className={styles.rootContainer}>
       <View className={styles.scrollView}>
         <Cell left={left} right={right} center={center} />
+        {/* <Cell left={left} right={right} center={center} />
+        <Cell left={left} right={right} center={center} />
+        <Cell left={left} right={right} center={center} />
+        <Cell left={left} right={right} center={center} />
+        <Cell left={left} right={right} center={center} /> */}
+      </View>
+      {/* <View className={styles.scrollView}>
+        <Cell left={left} right={right} center={center} />
         <Cell left={left} right={right} center={center} />
         <Cell left={left} right={right} center={center} />
         <Cell left={left} right={right} center={center} />
@@ -27,15 +35,7 @@ export default function Home() {
         <Cell left={left} right={right} center={center} />
         <Cell left={left} right={right} center={center} />
         <Cell left={left} right={right} center={center} />
-      </View>
-      <View className={styles.scrollView}>
-        <Cell left={left} right={right} center={center} />
-        <Cell left={left} right={right} center={center} />
-        <Cell left={left} right={right} center={center} />
-        <Cell left={left} right={right} center={center} />
-        <Cell left={left} right={right} center={center} />
-        <Cell left={left} right={right} center={center} />
-      </View>
+      </View> */}
     </View>
   );
 }
